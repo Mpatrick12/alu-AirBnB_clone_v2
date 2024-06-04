@@ -24,7 +24,6 @@ def do_pack():
         return None
     return file
 
-
 def do_deploy(archive_path):
     """
         Function to distribute archive to a web server
@@ -64,7 +63,6 @@ def do_deploy(archive_path):
            format(name)).failed is True:
         return False
     return True
-
 
 def deploy():
     """ creates and redistribute an archive to web server """
